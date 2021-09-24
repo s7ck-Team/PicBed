@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Error>
+  <Code>AccessDenied</Code>
+  <Message>The bucket you are attempting to access must be addressed using the specified endpoint. Please send all future requests to this endpoint.</Message>
+  <RequestId>614D47B4B096773039989E1D</RequestId>
+  <HostId>mepo.cn-hangzhou.oss-pub.aliyun-inc.com</HostId>
+  <Bucket>mepo</Bucket>
+  <Endpoint>oss-cn-beijing-internal.aliyuncs.com</Endpoint>
+</Error>
