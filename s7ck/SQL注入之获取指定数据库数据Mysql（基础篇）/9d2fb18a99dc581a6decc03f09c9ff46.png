@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Error>
+  <Code>overdueBill</Code>
+  <Message>error_overdue_bill</Message>
+  <Resource>%2Fxss%2F01.png</Resource>
+  <RequestId>05ef066a-febb-4d40-80c5-e380f6495ff3</RequestId>
+</Error>
