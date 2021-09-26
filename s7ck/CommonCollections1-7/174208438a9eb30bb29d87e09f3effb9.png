@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <link href="//g.alicdn.com/platform/sso-civil-pc/2.0.4/js/preLogin.js?74" rel="preload" as="script" crossorigin="anonymous"/>
+</head>
+
+<body>
+<div id="_umfp" style="width:0px;height:0px;overflow:hidden">
+</div>
+<form method="post" id="form" action="">
+    <input type="hidden" name="action" value="PreLoginAction" />
+    <input type="hidden" name="event_submit_do_PreLogin" value="false" />
+    <input type="hidden" id="deviceIp" name="deviceIp" value="" />
+    <input type="hidden" id="trustEnvToken" name="trustEnvToken" value="" />
+    <input type="hidden" id="trustEnvTokenErrorInfo" name="trustEnvTokenErrorInfo" value="" />
+    <input type="hidden" name="caLoginKey" value="" />
+    <input type="hidden" name="umidTokenId" value="T8ee8ec56a49939d6e05e4cc044a184ba">
+    <input type="hidden" name="disableCert" value="true">
+    <input type="hidden" name="alipayFaceMetaInfo" id="alipayFaceMetaInfo" value="">
+    <input type="hidden" name="isCDNAvailable" value="false">
+    <!-- <input type="hidden" name="domain" value="" > -->
+</form>
+<script type="text/javascript">
+    window.pageLoadTimestamp = new Date().getTime();
+    window.ssoConfig = {
+        '_sso_csrftoken_': '3JYJQE4W-T3MR234VXWV7E9LR0MET1-X5RF6RQK-5CJ4',
+        'intranet': 'false',
+        'ipAddr': '101.88.214.12',
+        'collectIpEnable': 'true',
+        'deviceIpUrl': 'https://buc-office.alibaba-inc.com/ip.js',
+        'alilangAppKey': 'buc-sso_001',
+        'alilangRequestId': '935a8409eb264237a58d7499690d32a1'
+    };
+    window.publicPath = '//g.alicdn.com/platform/sso-civil-pc/2.0.4/';
+
+</script>
+<script src="//g.alicdn.com/platform/sso-civil-pc/2.0.4/js/preLogin.js?74" crossorigin="anonymous"></script>
+<script async src="https://g.alicdn.com/platform/daily-test/isDaily.js"></script>
+</body>
+
+</html>
+<script>
+    (function (w, d, t) {
+        var s = d.createElement(t), m = d.getElementsByTagName(t)[0];
+        s.async = 1;
+        s.src = "https://g.alicdn.com/sd/pointman/js/pt2.js?_=" + Math.floor((new Date()).getTime() / 36e5);
+        m.parentNode.insertBefore(s, m);
+
+        w._pointman_q = w._pointman_q || [];
+        _pointman_q.push(["um", function (umx) {
+            var container = document.getElementById("_umfp");
+            umx.init({
+                timeout: 3000,
+                userId: '',
+                token: 'T8ee8ec56a49939d6e05e4cc044a184ba',
+                userFieldId: 'loginAccountInput',
+                serviceLocation: "cn",
+                appName: 'buc',
+                model: 'L1',
+                containers: { flash: container, dcp: container }
+            });
+        }]);
+    })(window, document, "script");
+</script>
