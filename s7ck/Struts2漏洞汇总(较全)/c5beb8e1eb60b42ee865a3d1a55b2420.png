@@ -1,0 +1,9 @@
+<?xml version='1.0' encoding='utf-8' ?>
+<Error>
+	<Code>NoSuchBucket</Code>
+	<Message>The specified bucket does not exist.</Message>
+	<Resource>tupian-1304552464.cos.ap-nanjing.myqcloud.com/image-20210101090358847.png</Resource>
+	<RequestId>NjBlMzhkZTRfMjk1NGU0MDlfMmQxYWZfNThkNWIxNw==</RequestId>
+	<TraceId>OGVmYzZiMmQzYjA2OWNhODk0NTRkMTBiOWVmMDAxODc0OWRkZjk0ZDM1NmI1M2E2MTRlY2MzZDhmNmI5MWI1OTQyYWVlY2QwZTk2MDVmZDQ3MmI2Y2I4ZmI5ZmM4ODFjZjZhMjcwMTIyMjAwMzY5MDRkNDVlMTJlMmRhZGZjYzQ=</TraceId>
+</Error>
+
